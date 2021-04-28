@@ -40,7 +40,8 @@
             <phase>package</phase>
             <configuration>
                 <attachClasses>true</attachClasses>
-                <webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml>
+                <!--webXml>${basedir}/src/main/webapp/WEB-INF/web.xml</webXml -->
+                <failOnMissingWebXml>false</failOnMissingWebXml>
             </configuration>
             <goals>
                 <goal>inplace</goal>
